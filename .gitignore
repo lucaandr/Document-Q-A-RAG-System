@@ -1,0 +1,17 @@
+# Baze de date vectoriale locale (ChromaDB)
+chroma_db_medium/
+*.sqlite3
+
+# Cache Python și medii virtuale
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Cache de la Jupyter Notebook
+.ipynb_checkpoints/
+
+# Cache de la HuggingFace / PyTorch local (dacă descarcă modele în folder)
+models/
+huggingface/

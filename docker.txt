@@ -1,0 +1,2 @@
+docker build -t rag-app:v1 .
+docker run -p 7860:7860 rag-app:v1
